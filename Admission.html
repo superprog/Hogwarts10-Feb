@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hogwarts school of Magic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hogwarts School of Witchcraft and Wizardry</h1> 
+    <header>
+   
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./faculty.html">Faculty</a></li>
+          <li><a href="#courses">Photo Gallery</a></li>
+          <li><a href="./Admission.html">Admission</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="head">
+        <h2>Admission Form</h2>
+      
+    </section>
+    <section style="text-align: left;" class="formDets">
+        <form  target="_" action="#action.html" >
+            <div><label for="name" class="formLabel">Name Of the Candidate:</label>
+                <input type="text" id="name"style="margin-left:2%; width:40%" class="formText" />
+            
+            </div>
+            <div>
+                <label for="name" class="formLabel">Username:</label>
+                <input type="email" id="name"style="margin-left:19%; width:40%" class="formText" />
+            
+            </div>
+            <div>
+                <label for="pass" class="formLabel">Password:</label>
+                <input type="password" id="pass"style="margin-left:19%; width:40%" class="formText" />
+            
+            </div>
+            <div>
+            <label for="dob" class="formLabel">Date of Birth:</label>
+            <input type="date" id="dob" style="margin-left:15%; width:20%" class="formText"/>
+            </div>
+            <div>
+            <label for="POB" class="formLabel">Place of Birth:</label>
+            <input type="text" id="POB" style="margin-left:14%; width:40%" />
+            </div>
+            <div>
+            <label for="POB" class="formLabel">Religion:</label>
+            <select style="margin-left:21%; width:20%" >
+                <option>Hindu</option>
+                <option>Christian</option>
+                <option>Islam</option>
+                <option>Jain</option>
+                <option>Buddhist</option>
+                <option>Judaism</option>
+                <option>Atheist</option>
+                <option>None of the above</option>
+            </select>
+            </div>
+            <div>
+                <label class="formLabel">Gender:</label>
+                <label style="margin-left:22%; width:100%;color: blue;">Male:</label>
+                <input type="radio" style="margin-left:0%;" name="gender" value="Male"/>
+                <label style="margin-left:5%; width:100%;color: blue;">Female:</label>
+                <input type="radio" style="margin-left:0%;" name="gender" value="Female"/>
+            </div>
+            <div>
+            <label for="POB" class="formLabel">Address:</label>
+            <input type="text" style="margin-left:21%; width:30%" maxlength="100"/>
+            </div>
+            <div>
+                <label for="POB" class="formLabel">Nationality:</label>
+                <input type="text" style="margin-left:17%; width:30%"/>
+            </div>
+            <div>
+                <label for="POB" class="formLabel">Contact No:</label>
+                <input type="tel" style="margin-left:17%; width:30%" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}" placeholder="091-12-123-123"required/>
+            </div>
+            <div>
+                <label for="POB" class="formLabel">Language:</label>
+                <select style="margin-left:19%; width:auto" >
+                    <option>--Select One---</option>
+                    <option>Hindi</option>
+                    <option>Chinese</option>
+                    <option>English</option>
+                    <option>Spanish</option>
+                    <option>German</option>
+                    <option>Arabic</option>
+                    <option>Portugese</option>
+                    <option>Bengali</option>
+                    <option>Russian</option>
+                    <option>Korean</option>
+                    <option>Vietnamese</option>
+                    <option>Tamil</option>
+                    <option>Turkish</option>
+                    <option>Japanese</option>
+                    <option>Marathi</option>
+                    <option>None of the above</option>
+                </select>
+               
+            </div>
+            <div>
+                <label for="POB" class="formLabel">Identification Marks:</label>
+                <input type="text" style="margin-left:6%; width:30%"/>
+            </div>
+            <div>
+                <label for="POB" class="formLabel">Hobbies:</label>
+                <fieldset style="width:60%;display: inline; margin-left: 22%;">
+                    <input type="checkbox" style="margin-left:1%; width:10%" name="Art" value="Art"/>
+                    <label>Art</label>
+                    <input type="checkbox" style="margin-left:1%; width:10%" name="Choreography" value="Choreography"/>
+                    <label>Choregraphy</label>
+                    <input type="checkbox" style="margin-left:1%; width:10%" name="Music" value="Music"/>
+                    <label>Music</label>
+                    <input type="checkbox" style="margin-left:1%; width:10%" name="Photography" value="Photography"/>
+                    <label>Photography</label>
+                    <input type="checkbox" style="margin-left:1%; width:10%" name="Pottery" value="Pottery"/>
+                    <label>Pottery</label>
+                    <input type="checkbox" style="margin-left:1%; width:10%" name="Art" value="Art"/>
+                    <label>Paiting</label>
+                </fieldset>
+               
+            </div>
+            <div>
+                <input type="submit" id="submit"/>
+            </div>
+    </section>
+</form>
+</body>
+</html>
